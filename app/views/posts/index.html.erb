@@ -1,11 +1,4 @@
-<h2>My Posts</h2>
-<ul>
-    <% @posts.each do |post| %>
-        <li>
-            <%= link_to post.title,post_path(post) %>
-        </li>
-    <% end %>
-</ul>
+
 
 <h2>
     <%= link_to 'Add New',posts_path,class:'header-menu' %>
